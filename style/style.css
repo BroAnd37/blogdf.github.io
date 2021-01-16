@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Roboto+Condensed:wght@700&display=swap');
+.content {
+    background-color: #99d6ff;
+    width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+	font-family: 'Bungee Outline', cursive;
+}

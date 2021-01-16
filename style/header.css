@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Roboto+Condensed:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	height: 100px;
+	background-color: green;
+	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+header .box {
+	margin: 10px;
+	background-color: #5bd483;
+	width: 100px;
+	flex-grow: 1;
+}
+header .box a{
+	color: #7c4da3;
+	text-decoration: none;
+	font-size: 25px;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	line-height: 70px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+header .box:hover {
+	background-color: #7c4da3
+	border: 3px solid;
+	background: rgba(178,205,240,1);
+	background: -moz-linear-gradient(-45deg, rgba(178,205,240,1) 0%, rgba(255,38,38,1) 24%, rgba(37,4,224,1) 52%, rgba(187,212,241,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(178,205,240,1)), color-stop(24%, rgba(255,38,38,1)), color-stop(52%, rgba(37,4,224,1)), color-stop(100%, rgba(187,212,241,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(178,205,240,1) 0%, rgba(255,38,38,1) 24%, rgba(37,4,224,1) 52%, rgba(187,212,241,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(178,205,240,1) 0%, rgba(255,38,38,1) 24%, rgba(37,4,224,1) 52%, rgba(187,212,241,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(178,205,240,1) 0%, rgba(255,38,38,1) 24%, rgba(37,4,224,1) 52%, rgba(187,212,241,1) 100%);
+	background: linear-gradient(135deg, rgba(178,205,240,1) 0%, rgba(255,38,38,1) 24%, rgba(37,4,224,1) 52%, rgba(187,212,241,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2cdf0', endColorstr='#bbd4f1', GradientType=1 );
+	-webkit-box-shadow: 18px 26px 30px 21px rgba(0,0,0,0.71);
+	-moz-box-shadow: 18px 26px 30px 21px rgba(0,0,0,0.71);
+	box-shadow: 18px 26px 30px 21px rgba(0,0,0,0.71);
+}
